@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/*.jar kubernetes.jar
+ADD target/*.jar 
 ENTRYPOINT ["java","-jar","/*.jar"]
